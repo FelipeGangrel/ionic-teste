@@ -12,12 +12,18 @@ export class TabsPage {
   public tab1Root: any;
   public tab2Root: any;
   public tab3Root: any;
-  public parametros: any;
+  public xBoxParametros: any;
+  public ps4Parametros: any;
 
   constructor() {
 
-     this.parametros = {
-      nome: 'Felipe',
+    this.xBoxParametros = { 
+      nome: 'Xbox',
+      email: 'felipefrog@gmail.com'
+    }
+
+    this.ps4Parametros = { 
+      nome: 'PS4',
       email: 'felipefrog@gmail.com'
     }
 
